@@ -112,16 +112,16 @@
 # print(group_names_by_alpha(names))
 
 ###=============================================================================
-def draw_mario_pyramid(number):
-    for i in range(number):
-        for j in range(number):
-            if (i+j >= number - 1):
-               print("*", end="")   
-            else:
-                print(" ", end="")
+# def draw_mario_pyramid(number):
+#     for i in range(number):
+#         for j in range(number):
+#             if (i+j >= number - 1):
+#                print("*", end="")   
+#             else:
+#                 print(" ", end="")
                 
-        print()
-        
-draw_mario_pyramid(4)            
+#         print()
+
+# draw_mario_pyramid(4)            
 
 
